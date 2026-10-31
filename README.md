@@ -4,6 +4,9 @@ An end-to-end, multi-tier enterprise platform demonstrating how to build, deploy
 
 This project implements two architectural paradigms—**Track 1: Self-Managed (Open-Source on EKS)** and **Track 2: Integrated (Managed AWS Services)**. By establishing a decoupled **Shared Model Plane** via [LiteLLM](https://github.com/BerriAI/litellm), orchestration, tool calling, and business logic remain completely agnostic to the underlying foundation model backends.
 
+
+<p align="center"><img src="docs/architecture.svg" alt="Architecture diagram" width="100%"/></p>
+
 ---
 
 ## 🏗 High-Level Architecture
