@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="660" viewBox="0 0 1000 660">
+<style>
+  .t { font: 700 14px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #e6edf3; }
+  .s { font: 400 11.5px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #8b949e; }
+  .lbl { font: 600 11px 'Fira Code', Consolas, monospace; fill: #dc2626; letter-spacing: 1px; }
+  .flow { stroke-dasharray: 6 6; animation: flow 1s linear infinite; }
+  @keyframes flow { to { stroke-dashoffset: -12; } }
+  .pulse { animation: pulse 2.4s ease-in-out infinite; }
+  @keyframes pulse { 50% { stroke-opacity: .35; } }
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#dc2626"/></marker></defs>
+<rect x="0.5" y="0.5" width="999" height="659" rx="12" fill="#0d1117" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="5" height="659" rx="2" fill="#dc2626"/>
+<text x="30" y="42" style="font: 800 22px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #e6edf3">Production-Ready AI Agents on Amazon EKS</text>
+<text x="30" y="66" style="font: 400 13px 'Fira Code', Consolas, monospace; fill: #dc2626">// multi-agent A2A · shared model plane · dual-track serving</text>
+<text x="30" y="131.0" class="lbl">CLIENT</text>
+<rect x="150.0" y="96" width="820.0" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+<rect x="150.0" y="96" width="3" height="62" rx="1.5" fill="#dc2626"/>
+<text x="560.0" y="123" class="t" text-anchor="middle">Chainlit UI</text>
+<text x="560.0" y="142" class="s" text-anchor="middle">chat client</text>
+<text x="30" y="239.0" class="lbl">ORCHESTRATE</text>
+<rect x="150.0" y="204" width="820.0" height="62" rx="8" fill="#2a0a0c" stroke="#dc2626" stroke-width="2" class="pulse"/>
+<rect x="150.0" y="204" width="3" height="62" rx="1.5" fill="#dc2626"/>
+<text x="560.0" y="231" class="t" text-anchor="middle">Orchestrator Agent</text>
+<text x="560.0" y="250" class="s" text-anchor="middle">Strands SDK · A2A protocol</text>
+<text x="30" y="347.0" class="lbl">SPECIALISTS</text>
+<rect x="150.0" y="312" width="402.0" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+<rect x="150.0" y="312" width="3" height="62" rx="1.5" fill="#dc2626"/>
+<text x="351.0" y="339" class="t" text-anchor="middle">Order Agent</text>
+<text x="351.0" y="358" class="s" text-anchor="middle">MCP tool server on EKS</text>
+<rect x="568.0" y="312" width="402.0" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+<rect x="568.0" y="312" width="3" height="62" rx="1.5" fill="#dc2626"/>
+<text x="769.0" y="339" class="t" text-anchor="middle">Product Agent</text>
+<text x="769.0" y="358" class="s" text-anchor="middle">Milvus vector RAG · fastembed</text>
+<text x="30" y="455.0" class="lbl">MODEL PLANE</text>
+<rect x="150.0" y="420" width="820.0" height="62" rx="8" fill="#2a0a0c" stroke="#dc2626" stroke-width="2" class="pulse"/>
+<rect x="150.0" y="420" width="3" height="62" rx="1.5" fill="#dc2626"/>
+<text x="560.0" y="447" class="t" text-anchor="middle">LiteLLM AI Gateway</text>
+<text x="560.0" y="466" class="s" text-anchor="middle">OpenAI-compatible API · EKS Pod Identity (no static creds)</text>
+<text x="30" y="563.0" class="lbl">SERVING</text>
+<rect x="150.0" y="528" width="402.0" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+<rect x="150.0" y="528" width="3" height="62" rx="1.5" fill="#dc2626"/>
+<text x="351.0" y="555" class="t" text-anchor="middle">Track 1 · Self-Managed</text>
+<text x="351.0" y="574" class="s" text-anchor="middle">vLLM on AWS Inferentia · Qwen 2.5 3B</text>
+<rect x="568.0" y="528" width="402.0" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+<rect x="568.0" y="528" width="3" height="62" rx="1.5" fill="#dc2626"/>
+<text x="769.0" y="555" class="t" text-anchor="middle">Track 2 · Integrated</text>
+<text x="769.0" y="574" class="s" text-anchor="middle">Amazon Bedrock · Nova Lite · AgentCore</text>
+<line x1="560.0" y1="158.0" x2="560.0" y2="187.9" stroke="#dc2626" stroke-width="2" class="flow"/>
+<line x1="560.0" y1="187.9" x2="560.0" y2="187.9" stroke="#dc2626" stroke-width="2"/>
+<line x1="560.0" y1="187.9" x2="560.0" y2="201" stroke="#dc2626" stroke-width="2" marker-end="url(#a)"/>
+<line x1="351.0" y1="295.9" x2="769.0" y2="295.9" stroke="#dc2626" stroke-opacity=".6" stroke-width="1.5"/>
+<line x1="351.0" y1="295.9" x2="351.0" y2="309" stroke="#dc2626" stroke-opacity=".6" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="769.0" y1="295.9" x2="769.0" y2="309" stroke="#dc2626" stroke-opacity=".6" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="560.0" y1="266.0" x2="560.0" y2="295.9" stroke="#dc2626" stroke-width="2" class="flow"/>
+<line x1="351.0" y1="390.1" x2="769.0" y2="390.1" stroke="#dc2626" stroke-opacity=".6" stroke-width="1.5"/>
+<line x1="351.0" y1="374" x2="351.0" y2="390.1" stroke="#dc2626" stroke-opacity=".6" stroke-width="1.5"/>
+<line x1="769.0" y1="374" x2="769.0" y2="390.1" stroke="#dc2626" stroke-opacity=".6" stroke-width="1.5"/>
+<line x1="560.0" y1="390.1" x2="560.0" y2="403.9" stroke="#dc2626" stroke-width="2" class="flow"/>
+<line x1="560.0" y1="403.9" x2="560.0" y2="403.9" stroke="#dc2626" stroke-width="2"/>
+<line x1="560.0" y1="403.9" x2="560.0" y2="417" stroke="#dc2626" stroke-width="2" marker-end="url(#a)"/>
+<line x1="351.0" y1="511.9" x2="769.0" y2="511.9" stroke="#dc2626" stroke-opacity=".6" stroke-width="1.5"/>
+<line x1="351.0" y1="511.9" x2="351.0" y2="525" stroke="#dc2626" stroke-opacity=".6" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="769.0" y1="511.9" x2="769.0" y2="525" stroke="#dc2626" stroke-opacity=".6" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="560.0" y1="482.0" x2="560.0" y2="511.9" stroke="#dc2626" stroke-width="2" class="flow"/>
+<text x="30" y="634" style="font: 400 12px 'Fira Code', Consolas, monospace; fill: #8b949e">observability: OpenTelemetry → Langfuse · eval: Claude Sonnet LLM-as-a-Judge / AgentCore Evaluation · IaC: Terraform</text>
+</svg>
